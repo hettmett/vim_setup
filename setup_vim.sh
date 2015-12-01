@@ -37,6 +37,12 @@ then
     echo 'Installing vim bundles...'
     vim +BundleInstall +qall
     echo 'Done'
+
+    echo 'Creating swap/backup/undo directories'
+    mkdir ~/.vim/swap
+    mkdir ~/.vim/backup
+    mkdir ~/.vim/undo
+    echo 'Done'
 fi
 
 echo 'Enjoy'
