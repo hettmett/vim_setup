@@ -27,6 +27,7 @@ if [[ ! -e ~/.vim/colors/quagmire.vim ]]
 then
     mkdir ~/.vim/colors
     cp ~/vim_conf/quagmire.vim ~/.vim/colors/quagmire.vim
+    cp ~/vim_conf/nofrils-dark.vim ~/.vim/colors/nofrils-dark.vim
 fi
 
 # copy .vimrc file
