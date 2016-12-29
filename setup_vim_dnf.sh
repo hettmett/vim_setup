@@ -2,7 +2,7 @@
 
 # install git
 echo 'Installing git library...'
-sudo yum install git
+sudo dnf install git
 echo 'Done'
 
 echo 'Installing ag search library...'
