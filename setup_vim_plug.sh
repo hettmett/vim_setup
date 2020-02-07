@@ -42,7 +42,7 @@ then
     cp ~/vim_conf/settings.vim ~/.vim/settings.vim
     cp ~/vim_conf/mappings.vim ~/.vim/mappings.vim
     cp ~/vim_conf/plugins_config.vim ~/.vim/plugins_config.vim
-    cp ~/vim_conf/pydoc_templates ~/.vim/
+    cp -r ~/vim_conf/pydoc_templates ~/.vim/
 
     echo 'Installing vim plugins...'
     vim +PlugInstall +qall
